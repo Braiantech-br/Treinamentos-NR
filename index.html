@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treinamentos NR · Braian Tech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0b0d11; --card:#151920; --line:#252b35; --ink:#f3f5f8; --mute:#9aa4b2; --yellow:#f5c400; --green:#22c55e; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Poppins, system-ui, sans-serif; line-height:1.55; }
+  .wrap { max-width:1080px; margin:0 auto; padding:40px 20px 64px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+  .brand { display:flex; align-items:center; gap:12px; font-weight:800; letter-spacing:.04em; }
+  .brand i { width:8px; height:34px; background:var(--yellow); border-radius:3px; display:block; }
+  .brand span { color:var(--yellow); }
+  .tag { color:var(--yellow); font-weight:600; font-size:.85rem; letter-spacing:.12em; text-transform:uppercase; margin:48px 0 8px; }
+  h1 { font-size:clamp(2rem,5vw,3.2rem); line-height:1.1; margin:0 0 12px; font-weight:800; }
+  .lead { color:var(--mute); max-width:680px; margin:0 0 32px; }
+  video { width:100%; border-radius:16px; border:1px solid var(--line); background:#000; display:block; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin-top:32px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; display:flex; flex-direction:column; gap:8px; text-decoration:none; color:inherit; transition:border-color .2s, transform .2s; }
+  a.card:hover { border-color:var(--yellow); transform:translateY(-2px); }
+  .card b { font-size:1.1rem; }
+  .card small { color:var(--mute); }
+  .card .go { margin-top:auto; color:var(--yellow); font-weight:600; font-size:.9rem; }
+  .vr { border-color:rgba(34,197,94,.5); }
+  .vr .go { color:var(--green); }
+  h2 { margin:56px 0 12px; font-size:1.4rem; }
+  table { width:100%; border-collapse:collapse; font-size:.95rem; }
+  td { padding:12px 10px; border-top:1px solid var(--line); vertical-align:top; }
+  td:first-child { white-space:nowrap; font-weight:600; color:var(--yellow); width:1%; }
+  td a { color:var(--ink); }
+  .note { color:var(--mute); font-size:.85rem; margin-top:12px; }
+  footer { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); color:var(--mute); font-size:.85rem; display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+  footer a { color:var(--ink); }
+  @media (max-width:520px) { td:first-child { white-space:normal; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><i></i><div>BRAIAN <span>TECH</span></div></div>
+    <small style="color:var(--mute)">Assistência Personalizada – Projetos e Robótica</small>
+  </header>
+
+  <div class="tag">Treinamentos NR · Ergonomia</div>
+  <h1>Levantamento seguro de cargas</h1>
+  <p class="lead">Vídeo de treinamento com o jeito errado e o jeito certo, em 7 passos, e o jogo em realidade virtual "Mestre do Levantamento" para praticar com o próprio corpo.</p>
+
+  <video controls preload="metadata" src="videos/treinamento_levantamento_seguro_com_som_BraianTech.mp4"></video>
+
+  <div class="grid">
+    <a class="card vr" href="vr/mestre-do-levantamento/">
+      <b>Jogo VR · Mestre do Levantamento</b>
+      <small>Fase 1: do chão para a bancada. Abra no navegador do Meta Quest e toque em "Entrar no VR". No PC, funciona com mouse e teclado.</small>
+      <span class="go">Jogar →</span>
+    </a>
+    <a class="card" href="videos/treinamento_levantamento_seguro_com_som_BraianTech.mp4" download>
+      <b>Vídeo completo com som</b>
+      <small>53 s · Full HD · com normas de referência e QR codes no final.</small>
+      <span class="go">Baixar MP4 →</span>
+    </a>
+    <a class="card" href="videos/jeito_certo_BraianTech.mp4" download>
+      <b>Só o jeito certo</b>
+      <small>31 s · Full HD · os 7 passos, sem a parte do erro.</small>
+      <span class="go">Baixar MP4 →</span>
+    </a>
+    <a class="card" href="videos/treinamento_levantamento_seguro_BraianTech.mp4" download>
+      <b>Versão sem som</b>
+      <small>44 s · Full HD · para gravar a narração por cima.</small>
+      <span class="go">Baixar MP4 →</span>
+    </a>
+  </div>
+
+  <h2>Normas de referência</h2>
+  <table>
+    <tr><td>NR-17</td><td>Ergonomia · item 17.5 (levantamento, transporte e descarga individual de cargas) e 17.5.5 (orientação ao trabalhador).</td></tr>
+    <tr><td>NR-1</td><td>Gerenciamento de riscos ocupacionais · riscos ergonômicos no PGR e capacitação.</td></tr>
+    <tr><td>NR-11</td><td>Transporte, movimentação, armazenagem e manuseio de materiais.</td></tr>
+    <tr><td>ABNT NBR ISO 11228-1</td><td>Ergonomia · movimentação manual · levantamento e transporte de cargas.</td></tr>
+  </table>
+  <p class="note">Normas Regulamentadoras: <a href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes" style="color:var(--ink)">gov.br</a> · NBR ISO 11228-1: <a href="https://www.normas.com.br/visualizar/abnt-nbr-nm/11914/abnt-nbriso11228-1-ergonomia-movimentacao-manual-parte-1-levantamento-e-transporte-de-cargas" style="color:var(--ink)">catálogo ABNT</a>. Material de orientação: não substitui a AEP/AET nem as orientações do SESMT.</p>
+
+  <footer>
+    <span>© Braian Tech · Divinópolis, MG</span>
+    <span><a href="https://www.braiantech.com.br">braiantech.com.br</a> · <a href="https://www.instagram.com/braiantech">@braiantech</a></span>
+  </footer>
+</div>
+</body>
+</html>
